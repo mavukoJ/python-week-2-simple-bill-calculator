@@ -1,8 +1,11 @@
-# Simple Bill Calculator
-# This program calculates the total cost based on price and quantity.
+
 
 price = 50
 quantity = 3
+
+
+price = float(input("Enter the price of one item: "))
+quantity = int(input("Enter the quantity: "))
 
 total = price * quantity
 
